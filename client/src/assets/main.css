@@ -1,0 +1,35 @@
+@import './base.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+h1, .h1 {
+  @apply text-4xl;
+}
+
+h2 {
+  @apply text-2xl;
+}
+
+h3 {
+  @apply text-xl;
+}
+
+h4 {
+  @apply text-base;
+}
+
+h5 {
+  @apply text-sm;
+}
+
+h6 {
+  @apply text-xs;
+}
+
+/* <h1>	2em or 200%
+<h2>	1.5em or 150%
+<h3>	1.17em or 117%
+<h4>	1em or 100%
+<h5>	0.83em or 83%
+<h6>	0.67em or 67% */
